@@ -90,7 +90,7 @@ print(even_dict)'''
 new_dict={k:v for (k,v) in original_dict.items() if v%2!=0 if v<40}
 print(new_dict)'''
 
-languages=[
+'''languages=[
     {"Python":"Machine Lerning","R":"Machine Learning"},
     {"Python":"Web Development","Java Scripit":"Web Development","HTML":"Web Development"},
     {"C++":"Game Development","Python":"Game Development"},
@@ -98,7 +98,7 @@ languages=[
 ]
 #print(*[key for i in languages for key in i.keys()],sep="\n")
 #print([key for i in languages for key in i.keys()],sep="\n")
-print(*[key for i in languages for key in i.values()],sep="\n")
+print(*[key for i in languages for key in i.values()],sep="\n")'''
 
 
 #Next Class OOP after then Web Development.
