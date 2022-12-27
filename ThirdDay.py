@@ -101,7 +101,7 @@ languages=[
 print(*[key for i in languages for key in i.values()],sep="\n")
 
 
-#Next Class OOP after then Web Development
+#Next Class OOP after then Web Development.
 
 
 
