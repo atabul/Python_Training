@@ -1,28 +1,28 @@
 #iterate the given number list of numbers abd print only those numbers which are divisible by 5. Given list is [10,20, 33,46,55]
-'''l=[]
+l=[]
 l.append(10)
 l.append(20)
 l.append(33)
 l.append(46)
 l.append(55)
 myList={x%5 for x in [10,20,33,46,55]}
-print(myList)''' 
+print(myList)
 
 #Print the following pattern
 '''1
-2 2
-3 3 3
-4 4 4 4
-5 5 5 5 5'''
+   2 2
+   3 3 3
+   4 4 4 4
+   5 5 5 5 5'''
 
-'''for i in range(1,6):
+for i in range(1,6):
     for j in range(i):
         print(i,end=' ')
-    print()'''
+    print()
 
 
 #write a program to check if the given number is a palindrome number
-'''def palindrome(num):
+def palindrome(num):
     temp=num
     rev=0
     while(num>0):
@@ -35,10 +35,10 @@ print(myList)'''
         print("Not a palindrome!")
 
 num=int(input("Enter a number:"))
-palindrome(num)'''
+palindrome(num)
 
 #Class
-'''class Person:
+class Person:
     def __init__(self, name, age):       #init and str are initialization and structure function and these are standard for all class also take double dash before and after.
         self.name=name
         self.age=age
@@ -52,10 +52,10 @@ print(p1.name)
 print(p1.age)
 print(p1)
 print(p2)
-print(p1.myfunc())'''
+print(p1.myfunc())
 
 
-'''class Room:
+class Room:
     length=0.0
     breadth=0.0
     def calculate_area(self):
@@ -63,10 +63,10 @@ print(p1.myfunc())'''
 study_room=Room()
 study_room.length=42.5
 study_room.breadth=30.8
-study_room.calculate_area()'''
+study_room.calculate_area()
 
 #inheritance
-'''class Animal:
+class Animal:
     name=""
     def eat(self):
         print("I can eat")
@@ -76,9 +76,10 @@ class Dog(Animal):
 labrador=Dog()
 labrador.name="Atabul"
 labrador.eat()
-labrador.display()'''
+labrador.display()
 
-'''class Car:
+
+class Car:
     name=""
     def drive(self):
         print("Drive slow!")
@@ -88,7 +89,7 @@ class Hundai(Car):
 abc=Hundai()
 abc.name="TVS"
 abc.drive()
-abc.display()'''
+abc.display()
 
 
 #Super Method
@@ -102,20 +103,3 @@ class Dog(Animal):
         print("I like to eat bones")
 laborador=Dog()
 laborador.eat()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-

@@ -1,4 +1,4 @@
-'''for i in range(0,10):
+for i in range(0,10):
     a=i
     print(numbers[i] + numbers[i - 1], end=", ")
 
@@ -9,58 +9,58 @@
 
     #b=PreviousNo'''
 
-'''for a in range(0,10):
+for a in range(0,10):
     CurrentNo=a
     print(a)
     for b in range(1,10):
         PreviousNo=b
         print(b)
         sum=CurrentNo+PreviousNo
-    print(sum)''' 
+    print(sum)
 
 
 #previous and current no sum
-'''print("Printing current abd previous number and their sum in a range(10")
+print("Printing current abd previous number and their sum in a range(10")
 previous_num=0
 for i in range(1,11):
     x_sum=previous_num+1
     print("current_number","previous_num",previous_num,"sum:")
-    previous_num=1'''
+    previous_num=1
 
 
-'''def greetings():
+def greetings():
     print("Hello World!")
 greetings()
-print("Printing outside of the function")''' 
+print("Printing outside of the function")
 
-'''def add_numbers(num1,num2):
+def add_numbers(num1,num2):
     sum=num1+num2
     print('Sum: ',sum)
-add_numbers(2,4)''' 
+add_numbers(2,4)
 
 
-'''def find_square(num):
+def find_square(num):
     result=num*num
     return result
 square=find_square(3)
-print('Square:',square)''' 
+print('Square:',square) 
 
 
-'''def square(no):
+def square(no):
     x=no*no
     return x
 ab=square(6)
-print('Square:',ab)''' 
+print('Square:',ab)
 
 
 #List Start
-'''def get_square(num):
+def get_square(num):
     return num*num
 for i in [1,2,3]:
     result=get_square(i)
-    print('Square of ',i,'=',result)''' 
+    print('Square of ',i,'=',result)
 
-'''def get_square(num):
+def get_square(num):
     try:
         print(num*num)
     except:
@@ -68,23 +68,23 @@ for i in [1,2,3]:
 
 for i in [1,"Atabul",3]:
     result=get_square(i)
-    print('Square of','i','=',result)''' 
+    print('Square of','i','=',result)
 
 
 #unlnown numbers
-'''def find_sum(*numbers):
+def find_sum(*numbers):
     result=0
     for num in numbers:
         result=result+num
     print("Sum=",result)
 find_sum(1,2,3)
-find_sum(4,9)''' 
+find_sum(4,9) 
 
 
 #unknown fruits Awargs
-'''def my_function(*fruits):
+def my_function(*fruits):
     print("The selected fruit is " + fruits[1])
-my_function("Apple","Orange","Mango")''' 
+my_function("Apple","Orange","Mango")
 
 
 #unknown data for key and value in the list of kwargs, (Dictionary)
@@ -95,14 +95,3 @@ def intro(**data):
         #print(key,"is",value.format(key,value))
 intro(Firstname="Atabul",Lastname="Nadaf",Age=25,Phone=9812158306)
 #intro(Email="djdsj",Country="shf")
-
-
-#Function Recursion
-
-
-
-
-
-
-
-

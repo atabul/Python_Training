@@ -1,5 +1,5 @@
 #Polymorphism
-'''class Cat:
+class Cat:
     def __init__(self,name,age):
         self.name=name
         self.age=age
@@ -23,11 +23,11 @@ dog1=Dog("Rocky",4.8)
 for animal in (cat1,dog1):
     animal.make_sound()
     animal.info()
-    animal.make_sound()''' 
+    animal.make_sound()
 
 
 #Incapsulation(Call one function then other can be hidden) and Abstraction(Keep all the function in the different modules)
-'''class Person:
+class Person:
     def __init__(self):
         self.name="Atabul"
     def bio(self):
@@ -44,9 +44,11 @@ for animal in (cat1,dog1):
 obj=Person()
 print(obj.name)
 obj.bio()
-obj.interest()''' 
+obj.interest()
 
-'''class Library:
+
+
+class Library:
     def __init__(self,books):
         self.books=books
     def list_books(self):
@@ -85,9 +87,9 @@ while True:
         O.receive_book(book)
     else:
         print("Thank you come again")
-        quite()''' 
+        quite()
 
-      #Web Application  
+      
 
 
 
